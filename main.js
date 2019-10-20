@@ -33,12 +33,17 @@ else {
   arr[i] = num;
 }
 i ++;
-
-
 }
 
-function changeNextThreeToValue() {
-
+function changeNextThreeToValue(start1, arr, value) {
+  let i = start1;
+  let count = 0
+  while (i < arr.length && count <= 2) {
+    arr[i] = value;
+    count ++;
+  }
+  i ++;
+}
 }
 
 module.exports = {
