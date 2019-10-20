@@ -10,8 +10,8 @@ const {
 
 describe('changeLast', () => {
   it('changes the last element in the given array to the given value', () => {
-    const arr1 = [1, 2, 3];
-    changeLast(arr1, 5);
+      const arr1 = [1, 2, 3];
+      changeLast(arr1, 5);
     expect(arr1).toEqual([1, 2, 5])
     
     const arr2 = [1, 2];

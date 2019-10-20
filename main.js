@@ -1,17 +1,25 @@
-function changeLast() {
+
+function changeLast(arr, num) {
+  arr[arr.length - 1] = num;
+}
+
+
+
+function addMeToEnd(arr) {
+arr.push('Colin');
 
 }
 
-function addMeToEnd() {
-
+function addMeToStart(arr) {
+arr.unshift('Colin');
 }
 
-function addMeToStart() {
-
+function changeAllValuesTo(arr,num) {
+let i = 0;
+while (i < arr.length) {
+  arr[i] = num;
 }
-
-function changeAllValuesTo() {
-
+i ++;
 }
 
 function oddOrEven() {
