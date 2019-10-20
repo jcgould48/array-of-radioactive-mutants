@@ -22,7 +22,18 @@ while (i < arr.length) {
 i ++;
 }
 
-function oddOrEven() {
+function oddOrEven(arr) {
+let i = 0;
+while (i < arr.length)
+if (arr[i] % 2 === 0){
+  arr[i] = 'even';
+} 
+else {
+  arr[i] = 'odd'{
+  arr[i] = num;
+}
+i ++;
+
 
 }
 
